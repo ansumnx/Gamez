@@ -1,0 +1,46 @@
+header {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 60px;
+    color: rgba(183, 177, 171, 0.678);
+    font-family: sarif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 4vw;
+}
+header ul li {
+    padding: 3vw;
+}
+.link {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgba(183, 177, 171, 0.678);
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-family: serif;
+}
+.link:hover {
+  color:crimson;
+}
+.line{
+  width: 100vw;
+  border: 1px  solid rgba(220, 20, 60, 0.748);
+  filter: blur(2px);
+
+}
