@@ -12,7 +12,7 @@ const Guess = () => {
     let aiguess = Math.floor(Math.random() * 10) + 1;
 
     if (myguess === aiguess) {
-      setvalue("Yeah!, your guess is correct");
+      setvalue("Yeah! your guess is correct");
     }
     else if (myguess > 10 || myguess < 0 || isNaN(myguess)) {
 

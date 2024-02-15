@@ -8,11 +8,11 @@ const Dice = () => {
 let rolled=()=>{
   let roll=Math.floor(Math.random()*6)+1;
   if(roll==6){
-    setdice("lucky! you")
+    setdice("Lucky! You")
   }
   else
   {
-    setdice("rollagain");
+    setdice("Roll Again");
   }
 };
 let roled =(event)=>{
@@ -35,7 +35,7 @@ let rotate={
 
       <div className='instruction'>
         <li className='li'>you have three change to get six</li>
-        <li className='li'>Roll the dice or Roll your luck</li>
+        <li className='li'>Roll the dice</li>
         <li className='li'>If you get six you win</li>
       </div>
       <div className='diceimg'>
