@@ -44,3 +44,14 @@ header ul li {
   filter: blur(2px);
 
 }
+@media  screen and (max-width:600px) {
+  header{
+
+    display: none;
+  }
+  #logo{
+    display: none;
+  }
+  
+}
+
