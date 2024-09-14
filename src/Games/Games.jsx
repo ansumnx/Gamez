@@ -19,7 +19,7 @@ const Games = () => {
       <div className="dice">
         <h1>🎲 Dice Game</h1>
         <p>Roll the virtual dice and let the excitement unfold! Whether you're a strategic mastermind or a risk-taking
-          adventurer, our dice game offers an exhilarating experience for players of all levels. Test your luck.
+          adventurer, our dice game offers an exhilarating experience for players of all levels.
         </p>
         <Link className="d" to='/dice'>
         <img src="./dice.png" alt="Dice-game" />
