@@ -7,7 +7,7 @@ const Home = () => {
   let playnow = "Play Now" ; 
   return (
      <>   <div className="welcome">
-        <h1 id="home">gamez !</h1>
+        <h1 id="home">gamez!</h1>
         <p>
           <span>Welcome to Gamez,</span> Hey there! I'm Anshuman, the creator behind this interactive corner of the web. At Gamez, we bring the joy of gaming right to your fingertips.
 
